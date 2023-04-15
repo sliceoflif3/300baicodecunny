@@ -1,0 +1,3 @@
+We sort the string lexico order, then compare if it is the same.
+
+Another approach is using hastable. Create a array consists of 26 elements, each element is a counter. Then, loop through two string, each occurence in the first string is plus 1 into its counter, and the same occurence in the second string is minus 1 into its counter. Then, if any string is difference than 0, which mean the frequency is different between 2 strings, we return false;

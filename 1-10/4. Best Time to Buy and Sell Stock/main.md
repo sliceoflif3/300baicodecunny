@@ -1,0 +1,2 @@
+First, we initialize the buy index at 0 and sell index at 1, because we can't sell before buying, and buying and selling in the same day is pointless. 
+Then, we iterate through all days, if anyday the sell price is higher than the buy price, that means selling in that day will have profit, thus max_profit = max(max_profit, prices[sell] - prices[buy]). If the sell price is lower than the buy price, that means we should buy in that day, thus buy = sell. 
