@@ -1,0 +1,1 @@
+We iterate one by one, if at somepoint the total sum is less than 0 we drop everything before it. This is because if the sum is less than 0, then adding a number to it will only make it smaller. So we can drop everything before it and start from the current number. We also keep track of the maximum sum we have seen so far.

@@ -1,0 +1,2 @@
+First, we create a helper function that take the map, start row index, start column index, current color, new color and the width and height of the map as input. If the current position is out of the map, or the current position have the new color (doesnt need to be changed) we return.
+Otherwise, we change the current position to the new color and call the function recursively for the four adjacent positions.

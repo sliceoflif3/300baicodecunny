@@ -1,0 +1,1 @@
+If target is in the left (< than the middle) then we call binary search at the left branch. Same for right.
